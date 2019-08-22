@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <head>
   <title>Begin Again</title>
-  <div id="headword">
-    <h1><a>Begin Again</a></h1>
-  </div>
   <style>
     body{
       margin:0px;
@@ -11,32 +8,63 @@
     #headword{
       text-align:center;
       border-bottom:3px solid gray;
+      text-shadow:2px 1px gray;
+      font-style:oblique;
     }
     #mainphotoword{
       padding-top:15px;
-      background-image:url(https://lbr0492.github.io/beginagain/main B.A.jpg);
-      /* z-index:100;
-      position: absolute;
-      color: black;
-      font-size:20px;
-      font-weight: bold;
-      left: 150px;
-      top: 350px: */
+      background-image:url(https://lbr0492.github.io/beginagain/main%20B.A.jpg) ;
+      height:36vh;
+      background-size:100% 100%;
+      padding-right:10px;
+      text-align:right;
+      word-spacing:10px;
+      /* border-bottom:1px solid gray; */
+    }
+    #mainphotoword a{
+      font-size:25px;
+      color:black;
+      text-decoration:none;
+    }
+    #gridimg{
+      display:grid;
+      grid-template-columns:185px 100px 2fr;
+    }
+    #gridimgname{
+      line-height:175px;
+      font-weight:bold;
     }
   </style>
 </head>
 <body>
-  <div id="mainphotoword">
-    <p>
-      <a href="scene1.html">장면1</a>
-      <a href="scene2.html">장면2</a>
-      <a href="scene3.html">장면3</a>
+  <div id="headword">
+    <h1><a>Begin Again</a></h1>
+  </div>
+  <div>
+    <p id="mainphotoword">
+      <a href="scene1.html">Scene1</a>
+      <a href="scene2.html">Scene2</a>
+      <a href="scene3.html">Scene3</a>
     </p>
   </div>
-  <div id="">
-
-  </div>
-  <div id="">
-
+  <div id="gridimg">
+    <div>
+      <img src="scene1.jpg" width="180" height="180">
+      <img src="scene2.jpg" width="180" height="180">
+      <img src="scene3.jpg" width="180" height="180">
+    </div>
+    <div id="gridimgname">
+      <ul>
+        <li>만남</li>
+        <li>사랑</li>
+        <li>기회</li>
+      </ul>
+    </div>
+    <div id="gridavi">
+      <iframe width="540" height="240" src="https://www.youtube.com/embed/65oIUI6hnA8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>영화 Begin Again OST "Tell Me If You Wanna Go Home"(비긴어게인 옥상 녹음씬)</p>
+      <iframe width="540" height="240" src="https://www.youtube.com/embed/7RMC3GxmP-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <h3>영화 Begin Again OST "Lost Star"-Adam levine(비긴어게인 마지막장면)</h3>
+    </div>
   </div>
 </body>
